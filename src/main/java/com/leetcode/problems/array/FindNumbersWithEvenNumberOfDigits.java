@@ -13,7 +13,10 @@ public class FindNumbersWithEvenNumberOfDigits {
     }
 
     public int findNumbersV2(int[] nums) {
-        return (int) Arrays.stream(nums).map(this::countDigits).filter(this::isEvenNum).count();
+        return (int) Arrays.stream(nums)
+                .map(this::countDigits)
+                .filter(this::isEvenNum)
+                .count();
     }
 
     public int findNumbersBadWay(int[] nums) {
