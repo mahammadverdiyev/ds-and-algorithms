@@ -1,58 +1,77 @@
 package com.leetcode.linked_list;
 
 public class MyLinkedList {
-    public Node head;
-    public int size;
+    private int size;
+    private Node<Integer> head;
 
     public MyLinkedList() {
-        super();
-        this.head = null;
         this.size = 0;
+        this.head = null;
     }
 
-    public int get(final int index) {
-        if (index < 0 || index >= size) return -1;
-        Node curr = head;
-        for (int i = 0; i < index; i++) curr = curr.next;
-        return curr.val;
+    public int get(int index) {
+        if (index < 0 || index >= this.size) return -1;
+        Node<Integer> curr = this.head;
+        for (int i = 0; i < index; i++) curr = curr.getNext();
+        return curr.getVal();
     }
 
-    public void addAtHead(final int val) {
-        head = new Node(val, head);
-        size++;
+    public void addAtHead(int val) {
+        this.head = new Node<>(val, this.head);
+        this.size++;
     }
 
-    public void addAtTail(final int val) {
-        final Node newTail = new Node(val);
-        if (size == 0) head = newTail;
-        Node curr = head;
-        while (curr.next != null) curr = curr.next;
-        curr.next = newTail;
-        size++;
+    public void addAtTail(int val) {
+        final Node<Integer> newTail = new Node<>(val);
+        if (this.size == 0) this.head = newTail;
+        Node<Integer> curr = this.head;
+        while (curr.getNext() != null) curr = curr.getNext();
+        curr.setNext(newTail);
+        this.size++;
     }
 
-    public void addAtIndex(final int index, final int val) {
-        if (index < 0 || index > size) return;
-        if (index == size) addAtTail(val);
+    public void addAtIndex(int index, int val) {
+        if (index < 0 || index > this.size) return;
+        if (index == this.size) addAtTail(val);
         else {
-            final Node newNode = new Node(val);
-            Node curr = head;
-            for (int i = 0; i < index; i++) curr = curr.next;
-            newNode.setNext(curr.next);
-            curr.next = newNode;
-            size++;
+            Node<Integer> curr = this.head;
+            for (int i = 0; i < index - 1; i++) curr = curr.getNext();
+            final Node<Integer> newNode = new Node<>(val);
+            newNode.setNext(curr.getNext());
+            curr.setNext(newNode);
+            this.size++;
         }
     }
 
     public void deleteAtIndex(int index) {
-        if (index < 0 || index >= size) return;
-        if (index == 0) head = head.next;
+        if (index < 0 || index >= this.size) return;
+        if (index == 0) this.head = this.head.getNext();
         else {
-            Node curr = head;
-            for (int i = 0; i < index; i++) curr = curr.next;
-            curr.next = curr.next.next;
+            Node<Integer> curr = this.head;
+            for (int i = 0; i < index - 1; i++) curr = curr.getNext();
+            curr.setNext(curr.getNext().getNext());
+            this.size--;
         }
-        size--;
     }
 
+    public int getSize() {
+        return size;
+    }
+
+    public void setSize(int size) {
+        this.size = size;
+    }
+
+    public Node<Integer> getHead() {
+        return head;
+    }
+
+    public void setHead(Node<Integer> head) {
+        this.head = head;
+    }
+
+    @Override
+    public String toString() {
+        return String.format("MyLinkedList[size=%d, head=%s]", size, head);
+    }
 }
