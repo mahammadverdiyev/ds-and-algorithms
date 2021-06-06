@@ -1,7 +1,7 @@
 package com.leetcode.linked_list;
 
 public class Node<T> {
-    private T val;
+    private final T val;
     private Node<T> next;
 
     public Node(T val) {
@@ -16,10 +16,6 @@ public class Node<T> {
 
     public T getVal() {
         return val;
-    }
-
-    public void setVal(T val) {
-        this.val = val;
     }
 
     public Node<T> getNext() {
