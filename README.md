@@ -16,3 +16,4 @@ My HackerRank profile (https://www.hackerrank.com/taghizade_elvin)
 | 8  |Introduction|[Java Datatypes](https://www.hackerrank.com/challenges/java-datatypes/problem)|[Solution](src/main/java/com/hackerrank/java/JavaDatatypes.java)|-|Easy|10|Java Datatypes|
 | 9  |Introduction|[Java End-of-file](https://www.hackerrank.com/challenges/java-end-of-file/problem)|[Solution](src/main/java/com/hackerrank/java/JavaEndOfFile.java)|-|Easy|10|Java End-of-file|
 | 10 |Introduction|[Java Static Initializer Block](https://www.hackerrank.com/challenges/java-static-initializer-block/problem)|[Solution](src/main/java/com/hackerrank/java/JavaStaticInitializerBlock.java)|-|Easy|10|Java Static Initializer Block|
+| 11 |Introduction|[Java Int to String](https://www.hackerrank.com/challenges/java-int-to-string/problem)|[Solution](src/main/java/com/hackerrank/java/JavaIntToString.java)|-|Easy|10|Java Int to String|
