@@ -12,3 +12,4 @@ My HackerRank profile (https://www.hackerrank.com/taghizade_elvin)
 | 4 |Introduction|[Java Stdin and Stdout II](https://www.hackerrank.com/challenges/java-stdin-stdout/problem)|[Solution](src/main/java/com/hackerrank/java/JavaStdinAndStdoutII.java)|-|Easy|10|Java Stdin and Stdout II|
 | 5 |Introduction|[Java Output Formatting](https://www.hackerrank.com/challenges/java-output-formatting/problem)|[Solution](src/main/java/com/hackerrank/java/JavaOutputFormatting.java)|-|Easy|10|Java Output Formatting|
 | 6 |Introduction|[Java Loops I](https://www.hackerrank.com/challenges/java-loops-i/problem)|[Solution](src/main/java/com/hackerrank/java/JavaLoopsI.java)|-|Easy|10|Java Loops I|
+| 6 |Introduction|[Java Loops II](https://www.hackerrank.com/challenges/java-loops/problem)|[Solution](src/main/java/com/hackerrank/java/JavaLoopsII.java)|-|Easy|10|Java Loops II|
