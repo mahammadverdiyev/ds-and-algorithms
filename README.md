@@ -14,3 +14,4 @@ My HackerRank profile (https://www.hackerrank.com/taghizade_elvin)
 | 6 |Introduction|[Java Loops I](https://www.hackerrank.com/challenges/java-loops-i/problem)|[Solution](src/main/java/com/hackerrank/java/JavaLoopsI.java)|-|Easy|10|Java Loops I|
 | 7 |Introduction|[Java Loops II](https://www.hackerrank.com/challenges/java-loops/problem)|[Solution](src/main/java/com/hackerrank/java/JavaLoopsII.java)|-|Easy|10|Java Loops II|
 | 8 |Introduction|[Java Datatypes](https://www.hackerrank.com/challenges/java-datatypes/problem)|[Solution](src/main/java/com/hackerrank/java/JavaDatatypes.java)|-|Easy|10|Java Datatypes|
+| 9 |Introduction|[Java End-of-file](https://www.hackerrank.com/challenges/java-end-of-file/problem)|[Solution](src/main/java/com/hackerrank/java/JavaEndOfFile.java)|-|Easy|10|Java End-of-file|
