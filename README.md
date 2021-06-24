@@ -20,3 +20,4 @@ My HackerRank profile (https://www.hackerrank.com/taghizade_elvin)
 | 12 |Introduction|[Java Date and Time](https://www.hackerrank.com/challenges/java-date-and-time/problem)|[Solution](src/main/java/com/hackerrank/java/JavaDateAndTime.java)|[Test](src/test/java/com/hackerrank/java/JavaDateAndTimeTest.java)|Easy|15|Java Date and Time|
 | 13 |Introduction|[Java Currency Formatter](https://www.hackerrank.com/challenges/java-currency-formatter/problem)|[Solution](src/main/java/com/hackerrank/java/JavaCurrencyFormatter.java)|-|Easy|15|Java Currency Formatter|
 | 14 |Strings     |[Java Strings Introduction](https://www.hackerrank.com/challenges/java-strings-introduction/problem)|[Solution](src/main/java/com/hackerrank/java/JavaStringsIntroduction.java)|-|Easy|5|Java Strings Introduction|
+| 14 |Strings     |[Java Substring](https://www.hackerrank.com/challenges/java-substring/problem)|[Solution](src/main/java/com/hackerrank/java/JavaSubstring.java)|-|Easy|5|Java Substring|
