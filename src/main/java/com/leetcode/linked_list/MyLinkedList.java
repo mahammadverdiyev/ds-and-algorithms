@@ -17,4 +17,17 @@ public class MyLinkedList {
         }
         return curr.getVal();
     }
+
+    public void addAtHead(final int val) {
+        final Node<Integer> newHead = new Node<>(val);
+        newHead.setNext(this.head);
+    }
+
+    public Node<Integer> getHead() {
+        return head;
+    }
+
+    public int getSize() {
+        return size;
+    }
 }
